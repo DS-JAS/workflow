@@ -9,12 +9,21 @@ const isLocal = process.env.NODE_ENV === "development";
 
 
 
+// const config={
+//   // host:'10.64.176.3',
+//   host:"34.93.80.107",
+//   user:"root",
+//   database:"mc",
+//   password:"data2025",
+//   port:"3306"
+// }
+
 const config={
   // host:'10.64.176.3',
-  host:"34.93.80.107",
-  user:"root",
+  host:"34.93.75.171",
+  user:"datasolve",
   database:"mc",
-  password:"data2025",
+  password:"datasolve@2025",
   port:"3306"
 }
 
