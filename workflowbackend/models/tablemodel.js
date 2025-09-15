@@ -33,7 +33,7 @@ return results;
     }
     catch(error){
 console.error("Error fetching tables in Tablemodel getpersonalmapping :",error)
-throw new error("Database error")
+throw new Error("Database error")
     }
   },
   getprofiling:async()=>{
@@ -45,7 +45,7 @@ return results;
     }
     catch(error){
 console.error("Error in fetching getprofiling error:",error)
-throw new error("Database error")
+throw new Error("Database error")
     }
   },
   getstakeholder:async()=>{
